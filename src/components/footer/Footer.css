@@ -1,0 +1,35 @@
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0 50px;
+}
+
+.footer__fb,
+.footer__tw,
+.footer__in {
+  cursor: pointer;
+}
+
+.footer__tw,
+.footer__in {
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer__container {
+    padding: 10px 0;
+  }
+
+  .footer__container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2.5rem;
+  }
+
+  .footer__fb,
+  .footer__tw,
+  .footer__in {
+    width: 40px;
+  }
+}
